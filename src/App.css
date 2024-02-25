@@ -1,0 +1,43 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.container-left {
+  width: 50%;
+  height: 100%;
+  background-color: blue;
+}
+
+.container-right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.location-pic {
+  width: 100%;
+  height: 50%;
+
+}
+
+.comments {
+  width: 100%;
+  height: 50%;
+  background-color: black;
+}
+
+.picture {
+  height: 70%;
+  width: 70%;
+}
+
