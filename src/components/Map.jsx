@@ -3,7 +3,7 @@ import LenoirPic from '../assets/Lenoir-Pic.jpg'
 
 export function UNCMap({markerClick}) {
     const places = {
-        Lenoir: {name: "Lenoir", coords: [35.910651317144364, -79.0486821489566], picture: <img src={LenoirPic}></img>}
+        Lenoir: {name: "Lenoir", coords: [35.910651317144364, -79.0486821489566], picture: <img id="picture" src={LenoirPic}></img>}
     }
 
     return (

@@ -20,6 +20,7 @@ function App() {
       </div>
       <div className='container-right'>
         <div className='location-pic'>
+          <div className='Picture'></div>
           {activeLocation.picture}
         </div>
         <div className='comments'></div>
